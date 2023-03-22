@@ -1,5 +1,5 @@
 import { Schema, model, models } from 'mongoose';
-import IMotorcycle from '../Interfaces/IMotorcicle';
+import IMotorcycle from '../Interfaces/IMotorcycle';
 import AbstractODM from './AbstractODM';
 
 class MotoODM extends AbstractODM<IMotorcycle> {
